@@ -102,6 +102,35 @@ section h3 {
   border: 1px solid #c5cae9;
 }
 
+/* Delete button next to participant name */
+.participant-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.delete-participant:hover {
+  background-color: #ffebee;
+}
+
+.delete-participant svg {
+  display: block;
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
 .no-participants {
   font-style: italic;
   color: #666;
